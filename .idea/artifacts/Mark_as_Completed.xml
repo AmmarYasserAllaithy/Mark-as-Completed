@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Mark as Completed">
+    <output-path>$PROJECT_DIR$/out/artifacts/Mark_as_Completed</output-path>
+    <root id="archive" name="Mark as Completed.jar">
+      <element id="module-output" name="Mark as Completed" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
