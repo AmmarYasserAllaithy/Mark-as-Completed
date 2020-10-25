@@ -14,3 +14,5 @@ as Completed, to facilitate their manipulating, and **save your time and effort*
 Don't memorize or move them the life is easier
 
 > Just complete and let us mark ✔
+
+![Preview](Preview.gif)
