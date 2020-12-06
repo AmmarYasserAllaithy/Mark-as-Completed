@@ -10,13 +10,14 @@ public class Main {
     public static void main(String[] args) {
         try {
             if (args.length > 0) Marking.markAll(args);
-            else if (Settings.addRegistry())
+            else if (Settings.addRegistries())
                 Alert.showInfo("Congratulations.",
                         "Your app has added its registries successfully.",
                         "Now, you can use it from the right-click context menu to mark..",
                         "- All Files types (pdf, docx, pptx, amr, mp4, jpg, ..etc).",
                         "- Any Folder / Directory.");
-            else Alert.showError("We have encountered error while CONFIGURATIONS");
+            else Alert.showError("We have encountered error while setting up CONFIGURATIONS :(",
+                        "Please try again");
 
         } catch (IllegalAccessException | InvocationTargetException e) {
             Alert.showError(e.toString().split("\n"));

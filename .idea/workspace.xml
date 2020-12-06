@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Mark as Completed" />
+      <artifact name="Mark as Completed:jar" />
     </artifacts-to-build>
   </component>
   <component name="BranchesTreeState">
@@ -11,32 +11,18 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91ef20b0-5b11-4693-9899-9d01f2481b25" name="Default" comment="re-structure the app">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Mark_as_Completed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Mark_as_Completed_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Mark_as_Completed/Mark as Completed.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark as Completed/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark as Completed/core/FirstClass$StreamReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark as Completed/core/FirstClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/FirstClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/registry/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/registry/Settings.java" afterDir="false" />
     </list>
-    <list id="f1fb152d-2d2d-4aaf-a474-0b23cf037378" name="Revert &quot;re-structure the app&quot;" comment="Revert &quot;re-structure the app&quot;&#10;&#10;This reverts commit 38be819a">
-      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
-    </list>
+    <list id="f1fb152d-2d2d-4aaf-a474-0b23cf037378" name="Revert &quot;re-structure the app&quot;" comment="Revert &quot;re-structure the app&quot;&#10;&#10;This reverts commit 38be819a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,10 +48,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Temporal Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -183,15 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,7 +247,11 @@
       <workItem from="1603304285882" duration="19004000" />
       <workItem from="1603386010341" duration="1591000" />
       <workItem from="1603391740055" duration="4020000" />
-      <workItem from="1603396364903" duration="8443000" />
+      <workItem from="1603396364903" duration="10146000" />
+      <workItem from="1603406806078" duration="464000" />
+      <workItem from="1603979023868" duration="272000" />
+      <workItem from="1604689047519" duration="436000" />
+      <workItem from="1607259747307" duration="3243000" />
     </task>
     <task id="LOCAL-00001" summary="Update JOptionPanes UI">
       <created>1572452791453</created>
@@ -357,55 +347,5 @@
     <MESSAGE value="Update core functionality" />
     <MESSAGE value="re-structure the app" />
     <option name="LAST_COMMIT_MESSAGE" value="re-structure the app" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="412" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603399833360">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="412" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1603399833360" />
-    <state x="466" y="263" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603399978138">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="466" y="263" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1603399978138" />
-    <state x="466" y="213" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog" timestamp="1603400104398">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="466" y="213" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog/0.0.1366.738@0.0.1366.738" timestamp="1603400104398" />
-    <state x="394" y="187" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1603399835324">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="394" y="187" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.738@0.0.1366.738" timestamp="1603399835324" />
-    <state x="275" y="0" key="CommitChangelistDialog2" timestamp="1603404369383">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="275" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1603404369383" />
-    <state width="1286" height="164" key="GridCell.Tab.0.bottom" timestamp="1603402473965">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1286" height="164" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1603402473965" />
-    <state width="1286" height="164" key="GridCell.Tab.0.center" timestamp="1603402473964">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1286" height="164" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1603402473964" />
-    <state width="1286" height="164" key="GridCell.Tab.0.left" timestamp="1603402473963">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1286" height="164" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1603402473963" />
-    <state width="1286" height="164" key="GridCell.Tab.0.right" timestamp="1603402473964">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1286" height="164" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1603402473964" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1603375988456">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1603375988456" />
-    <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603403052722">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1603403052722" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1603381894659">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1603381894659" />
   </component>
 </project>
