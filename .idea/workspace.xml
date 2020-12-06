@@ -16,11 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91ef20b0-5b11-4693-9899-9d01f2481b25" name="Default" comment="re-structure the app">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Mark_as_Completed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Mark_as_Completed_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/registry/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/registry/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="f1fb152d-2d2d-4aaf-a474-0b23cf037378" name="Revert &quot;re-structure the app&quot;" comment="Revert &quot;re-structure the app&quot;&#10;&#10;This reverts commit 38be819a" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +64,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -171,17 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -200,18 +186,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.FirstClass" />
-      <item itemvalue="Application.WindowsRegistry" />
-      <item itemvalue="Application.Mark" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Mark" />
       <item itemvalue="Application.Settings" />
+      <item itemvalue="Application.WindowsRegistry" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WindowsRegistry" />
         <item itemvalue="Application.Settings" />
         <item itemvalue="Application.Mark" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.FirstClass" />
-        <item itemvalue="Application.WindowsRegistry" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +237,8 @@
       <workItem from="1603406806078" duration="464000" />
       <workItem from="1603979023868" duration="272000" />
       <workItem from="1604689047519" duration="436000" />
-      <workItem from="1607259747307" duration="3243000" />
+      <workItem from="1607259747307" duration="4654000" />
+      <workItem from="1607266563765" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="Update JOptionPanes UI">
       <created>1572452791453</created>
@@ -309,7 +296,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603403912071</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add .gitignore">
+      <created>1607265339644</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607265339644</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add Directories registry">
+      <created>1607265375679</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607265375679</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +347,8 @@
     <MESSAGE value="Add to Windows registry Editor" />
     <MESSAGE value="Update core functionality" />
     <MESSAGE value="re-structure the app" />
-    <option name="LAST_COMMIT_MESSAGE" value="re-structure the app" />
+    <MESSAGE value="Add .gitignore" />
+    <MESSAGE value="Add Directories registry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Directories registry" />
   </component>
 </project>
