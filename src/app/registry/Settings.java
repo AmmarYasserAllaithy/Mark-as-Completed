@@ -6,7 +6,9 @@ import java.lang.reflect.InvocationTargetException;
 import static app.registry.WinRegistry.*;
 
 public class Settings {
-    public static final String APP_NAME = "Mark as Completed";
+    public static final String
+            APP_NAME = "Mark as Completed",
+            EXE_NAME = APP_NAME.replace(" ", "-") + ".exe";
 
     private enum T {FILES, DIRECTORIES}
 
@@ -15,7 +17,7 @@ public class Settings {
     }
 
     public static boolean addRegistry(T t) throws InvocationTargetException, IllegalAccessException {
-        final String EXE_PATH = new File(System.getProperty("user.dir"), APP_NAME + ".exe").getAbsolutePath();
+        final String EXE_PATH = new File(System.getProperty("user.dir"), EXE_NAME).getAbsolutePath();
         final String KEY_MAC = getKeyMacOf(t);
         final String KEY_COMMAND = KEY_MAC + "\\command";
 

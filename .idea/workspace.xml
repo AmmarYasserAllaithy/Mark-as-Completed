@@ -17,7 +17,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91ef20b0-5b11-4693-9899-9d01f2481b25" name="Default" comment="re-structure the app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/registry/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/registry/Settings.java" afterDir="false" />
     </list>
     <list id="f1fb152d-2d2d-4aaf-a474-0b23cf037378" name="Revert &quot;re-structure the app&quot;" comment="Revert &quot;re-structure the app&quot;&#10;&#10;This reverts commit 38be819a" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,20 +81,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.FirstClass" />
-      <module name="Mark as Completed" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Main" />
       <module name="Mark as Completed" />
@@ -111,6 +97,20 @@
     </configuration>
     <configuration name="Mark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Mark" />
+      <module name="Mark as Completed" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.registry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Settings (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.registry.Settings" />
       <module name="Mark as Completed" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -168,6 +168,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -185,19 +196,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FirstClass" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Mark" />
       <item itemvalue="Application.Settings" />
       <item itemvalue="Application.WindowsRegistry" />
+      <item itemvalue="Application.Settings (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Settings (1)" />
         <item itemvalue="Application.WindowsRegistry" />
         <item itemvalue="Application.Settings" />
         <item itemvalue="Application.Mark" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FirstClass" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +250,8 @@
       <workItem from="1604689047519" duration="436000" />
       <workItem from="1607259747307" duration="4654000" />
       <workItem from="1607266563765" duration="153000" />
+      <workItem from="1607266787904" duration="474000" />
+      <workItem from="1607289072983" duration="2146000" />
     </task>
     <task id="LOCAL-00001" summary="Update JOptionPanes UI">
       <created>1572452791453</created>
@@ -310,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607265375679</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Configurations.png">
+      <created>1607267235621</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607267235621</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +369,7 @@
     <MESSAGE value="re-structure the app" />
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Add Directories registry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Directories registry" />
+    <MESSAGE value="Add Configurations.png" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Configurations.png" />
   </component>
 </project>
